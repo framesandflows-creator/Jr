@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="R Jerphin | AI/ML-focused engineering portfolio for internship applications"
+    />
+    <title>R Jerphin | AI/ML Internship Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="background-grid" aria-hidden="true"></div>
+    <canvas id="fx-canvas" aria-hidden="true"></canvas>
+    <div class="orbital-layer" aria-hidden="true">
+      <span class="orb orb-a"></span>
+      <span class="orb orb-b"></span>
+      <span class="orb orb-c"></span>
+    </div>
+    <div class="cursor-glow" id="cursor-glow" aria-hidden="true"></div>
+    <div class="student-3d-layer" id="student-3d-layer" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#home">
+        <span class="brand-mark">RJ</span>
+        <span class="brand-name">R Jerphin</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero reveal">
+        <div class="hero-text">
+          <p class="eyebrow">Internship Profile</p>
+          <h1>
+            Building practical systems as an
+            <span class="accent" id="typing-target">Aspiring AI &amp; ML Engineer</span>
+          </h1>
+          <p class="summary">
+            I am R Jerphin, a first-principles learner in B.Tech Computer Science Engineering (AIML) with
+            hands-on project experience across sensors, circuits, renewable micro-systems, and
+            user-focused digital product concepts.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="mailto:r.jerphin@gmail.com">Email for Internship</a>
+            <a class="btn btn-ghost" href="./resume.pdf" target="_blank" rel="noopener noreferrer"
+              >Open Resume PDF</a
+            >
+          </div>
+        </div>
+
+        <aside class="hero-card">
+          <p class="card-title">Candidate Snapshot</p>
+          <ul>
+            <li><span>Age</span><strong>18</strong></li>
+            <li><span>Degree</span><strong>B.Tech CSE (AIML)</strong></li>
+            <li><span>Semester</span><strong>2nd Year, 4th Semester</strong></li>
+            <li><span>Backlogs</span><strong>None</strong></li>
+            <li><span>Minor</span><strong>General Management</strong></li>
+          </ul>
+        </aside>
+      </section>
+
+      <section id="projects" class="section reveal">
+        <div class="section-head">
+          <p class="eyebrow">Build Experience</p>
+          <h2>Academic Engineering Projects</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="project-card reveal">
+            <div class="project-meta">
+              <span>1st Semester</span>
+              <span>Jun 2024 - Nov 2024</span>
+            </div>
+            <h3>Solar Tracking System</h3>
+            <p class="domain">Basic Electrical Engineering</p>
+            <ul>
+              <li>Built a solar tracker using LDR sensors to detect sunlight direction.</li>
+              <li>Enabled automatic panel rotation for improved sun alignment.</li>
+              <li>Strengthened practical skills in sensors, circuits, and hardware integration.</li>
+            </ul>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-meta">
+              <span>2nd Semester</span>
+              <span>Nov 2024 - Apr 2025</span>
+            </div>
+            <h3>Footstep Power Generation</h3>
+            <p class="domain">Basic Mechanical Engineering</p>
+            <ul>
+              <li>Created an energy-generation prototype using piezoelectric discs.</li>
+              <li>Demonstrated conversion of footstep pressure into small electrical output.</li>
+              <li>Improved understanding of real-time testing and energy conversion behavior.</li>
+            </ul>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-meta">
+              <span>3rd Semester</span>
+              <span>Apr 2025 - Oct 2025</span>
+            </div>
+            <h3>SmartBusGo</h3>
+            <p class="domain">Startup Idea - EIPR</p>
+            <ul>
+              <li>Designed a smart travel concept for bus tracking and digital ticketing.</li>
+              <li>Worked on concept validation, problem analysis, and user-centered features.</li>
+              <li>Developed product presentation and idea-pitching capability.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section split reveal">
+        <div class="panel reveal">
+          <p class="eyebrow">Technical Capability</p>
+          <h2>Engineering Skill Stack</h2>
+          <div class="skill-group">
+            <h3>Programming</h3>
+            <p>Python, C, Java, SQL</p>
+          </div>
+          <div class="skill-group">
+            <h3>Tools</h3>
+            <p>Canva, Posters, Presentations</p>
+          </div>
+          <div class="skill-group">
+            <h3>Practical Base</h3>
+            <p>Sensors, microprojects, engineering prototype fundamentals</p>
+          </div>
+        </div>
+
+        <div class="panel reveal">
+          <p class="eyebrow">Work Behavior</p>
+          <h2>Professional Traits</h2>
+          <div class="meter-row">
+            <span>Time Management</span>
+            <div class="meter"><span style="--value: 92%"></span></div>
+          </div>
+          <div class="meter-row">
+            <span>Communication</span>
+            <div class="meter"><span style="--value: 45%"></span></div>
+          </div>
+          <div class="meter-row">
+            <span>Presentation</span>
+            <div class="meter"><span style="--value: 50%"></span></div>
+          </div>
+          <div class="meter-row">
+            <span>Problem Solving</span>
+            <div class="meter"><span style="--value: 75%"></span></div>
+          </div>
+          <div class="meter-row">
+            <span>Critical Thinking</span>
+            <div class="meter"><span style="--value: 90%"></span></div>
+          </div>
+          <div class="language-wrap">
+            <p><strong>Languages:</strong> Tamil, English</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section reveal">
+        <div class="section-head">
+          <p class="eyebrow">Academic Base</p>
+          <h2>Education and Internship Readiness</h2>
+        </div>
+
+        <div class="readiness-grid">
+          <article class="readiness-card reveal">
+            <h3>B.Tech CSE (AIML)</h3>
+            <p>Amal Jyothi Engineering College, Kanjirappally, Kerala</p>
+          </article>
+          <article class="readiness-card reveal">
+            <h3>Current Progress</h3>
+            <p>Second year, fourth semester with no academic backlogs</p>
+          </article>
+          <article class="readiness-card reveal">
+            <h3>Cross-Discipline Context</h3>
+            <p>Pursuing a Minor in General Management for stronger team and product perspective</p>
+          </article>
+          <article class="readiness-card reveal">
+            <h3>Internship Value</h3>
+            <p>Strong learning agility, practical curiosity, and foundation in engineering execution</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact reveal">
+        <div>
+          <p class="eyebrow">Let’s Connect</p>
+          <h2>Open to internship opportunities in AI/ML and software engineering</h2>
+          <p class="location">
+            2/14A, North Street, Karankadu, Kanyakumari District, Tamil Nadu
+          </p>
+        </div>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="tel:+917305695031">Call +91 73056 95031</a>
+          <a class="btn btn-ghost" href="mailto:r.jerphin@gmail.com">r.jerphin@gmail.com</a>
+          <button id="copy-email" class="btn btn-ghost" type="button">Copy Email</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> R Jerphin. Built for internship applications.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+    <script type="module" src="./student-3d.js"></script>
+  </body>
+</html>
