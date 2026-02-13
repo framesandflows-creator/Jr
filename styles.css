@@ -119,22 +119,6 @@ body::after {
   opacity: 0.55;
 }
 
-.student-3d-layer {
-  position: fixed;
-  inset: 0;
-  z-index: 2;
-  pointer-events: none;
-  opacity: 0.92;
-}
-
-.student-3d-layer::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background: radial-gradient(circle at 50% 50%, transparent 0 36%, rgba(4, 7, 15, 0.26) 80%);
-}
-
 .background-grid {
   position: fixed;
   inset: 0;
@@ -583,11 +567,6 @@ h2 {
   .cursor-glow {
     display: none;
   }
-
-  .student-3d-layer {
-    opacity: 0.65;
-  }
-
   #fx-canvas {
     opacity: 0.4;
   }
@@ -624,12 +603,7 @@ h2 {
   .nav-links {
     flex-wrap: wrap;
     justify-content: center;
-  }
-
-  .student-3d-layer {
-    display: none;
-  }
-}
+  }}
 
 @keyframes orbitSpin {
   from {
@@ -687,8 +661,7 @@ h2 {
   }
 
   .cursor-glow,
-  #fx-canvas,
-  .student-3d-layer {
+  #fx-canvas {
     display: none;
   }
 }
